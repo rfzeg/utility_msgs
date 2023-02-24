@@ -1,0 +1,9 @@
+# goal request is a float value   
+float64 goal_float_value
+---
+# result that will be published after the action execution ends
+bool success # indicate successful run of action
+string info_message # informational, e.g. for error messages
+---
+# feedback message that will be published during action execution
+float64 current_float_value
